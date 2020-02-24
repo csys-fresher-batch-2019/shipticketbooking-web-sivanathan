@@ -8,7 +8,7 @@
 		<br>
 		<br>
 
-		<form action="updatecontact">
+		<form action="UpdateContactNumber">
 			<br>Enter userId : <input type="number" name="userid"
 				placeholder="Enter valid userId" min="1000" required autofocus /><br>
 			<br>Enter contact number : <input type="number" name="contactnumber"

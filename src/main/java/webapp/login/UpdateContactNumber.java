@@ -23,7 +23,7 @@ public class UpdateContactNumber extends HttpServlet {
 		//PrintWriter out=response.getWriter();
 		int user_id=Integer.parseInt(request.getParameter("userid"));
 		//String email = request.getParameter("email");
-		int contactnumber = Integer.parseInt(request.getParameter("contactnumber"));
+		long contactnumber = Long.parseLong(request.getParameter("contactnumber"));
 		System.out.println(user_id + "-" + contactnumber);
 		a.setContactNumber(contactnumber);
 		a.setUserId(user_id);

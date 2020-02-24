@@ -43,7 +43,7 @@ public class Admin extends HttpServlet {
 				}
 			else {
 				response.sendRedirect("admin.jsp?errorMessage=Invalid admin login");
-				//response.sendRedirect("admin.jsp");
+			
 				/*HttpSession s=request.getSession();
 				RequestDispatcher a=request.getRequestDispatcher("login.jsp");
 				a.forward(request, response);*/
